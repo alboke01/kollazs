@@ -1,69 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="HU">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-widtht, initial-scale=1.0">
-
-
-
     <style>
-
-body {
-          margin: 0;
-          font-family: "Lato", sans-serif;
-        }
-        
-        .sidebar {
-          margin: 0;
-          padding: 0;
-          width: 200px;
-          background-color: #AE90D1;
-          position: fixed;
-          height: 100%;
-          overflow: auto;
-        }
-        
-        .sidebar a {
-          display: block;
-          color: black;
-          padding: 16px;
-          text-decoration: none;
-        }
-         
-        .sidebar a.active {
-          background-color: #774BAA;
-          color: white;
-        }
-        
-        .sidebar a:hover:not(.active) {
-          background-color:#838086 ;
-          color: black;
-        }
-        
-        div.content {
-          margin-left: 200px;
-          padding: 1px 16px;
-          height: 1000px;
-        }
-        
-        @media screen and (max-width: 700px) {
-          .sidebar {
-            width: 100%;
-            height: auto;
-            position: relative;
-          }
-          .sidebar a {float: left;}
-          div.content {margin-left: 0;}
-        }
-        
-        @media screen and (max-width: 400px) {
-          .sidebar a {
-            text-align: center;
-            float: none;
-          }
-        }
-
             th {text-align: center;}
         table, th, td {
             background-color: rgb(26, 216, 223);
@@ -71,20 +13,69 @@ body {
             border-collapse: collapse;}
             
         th, td {padding: 10px;}
-
-        a{
-            text-decoration: none;
-            color: blanchedalmond;
+      body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #AE90D1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+      
+      .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+       
+      .sidebar a.active {
+        background-color: #774BAA;
+        color: white;
+      }
+      
+      .sidebar a:hover:not(.active) {
+        background-color:#838086 ;
+        color: black;
+      }
+      
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+      
+      @media screen and (max-width: 700px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
         }
+        .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+      }
+      
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+          text-align: center;
+          float: none;
+        }
+      }
     </style>
     <title>Órarend</title>
 </head>
 <body style="background-color: #2B2B2B;">
     <div class="sidebar">
-           <a class="active" href="https://aeszter01.github.io/kollazs/">KOLLÁZS</a> 
+           <a  href="https://aeszter01.github.io/kollazs/">KOLLÁZS</a> 
             <a href="https://aeszter01.github.io/kollazs/keplink.html">KÉPLINK</a> 
             <a href="https://alboke01.github.io/listak/">lISTÁK</a>
-            <a href="https://aeszter01.github.io/orarend/">ÓRAREND</a>
+            <a class="active" href="https://aeszter01.github.io/orarend/">ÓRAREND</a>
     </div>
     <div class="content">
     <table>
