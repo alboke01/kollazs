@@ -21,7 +21,7 @@ body{
     background-color: #A7C6D8;
 }
 
-.kepek{
+div.kepek{
     display: flex;
     justify-content: center;
 }
