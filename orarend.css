@@ -1,0 +1,10 @@
+th {text-align: center;}
+        table, th, td {
+            background-color: rgb(26, 216, 223);
+            border: 2px solid black;
+            border-collapse: collapse;}
+            
+        th, td {padding: 10px;}
+      body {
+        margin: 0;
+        font-family: "Lato", sans-serif;}
