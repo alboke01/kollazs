@@ -32,46 +32,97 @@
 </head>
 <body>
     <div class="sidebar">
-          <a href="https://alboke01.github.io/kollazs/">FŐOLDAL</a> 
+        <a class="active" href="https://alboke01.github.io/kollazs/">FŐOLDAL</a> 
           <a href="https://alboke01.github.io/kollazs/keplink.html">KÉPLINK</a> 
           <a href="https://alboke01.github.io/kollazs/listak.html">LISTÁK</a>
           <a href="https://alboke01.github.io/kollazs/orarend.html">ÓRAREND</a>
           <a href="https://alboke01.github.io/kollazs/evszakok.html">ÉVSZAKOK</a>
-          <a class="active" href="https://alboke01.github.io/kollasz/ürlap.html">ŰRLAP</a>
+          <a href="https://alboke01.github.io/urlap/">ŰRLAP</a>
        </div>
 
     <div class="content">
 
-        <form name="rendeles">
-            <h1>Pizza Rendelés</h1>
+        <div class="content">
+            <form>
+            <h1>Elf Bar</h1>
             <fieldset>
-                <legend>Vevő adatai:</legend>
-                <p><label>Név: <input type="text" name="nev">
-                        <small>Vezetéknév Keresztnév</small></label></p>
-                <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
+                <legend><h2>Vevő adatai</h2></legend>
+                <p><label>Név <input type="text" name="nev"></label></p>
+                <p><label>Lakcím <input type="text" name="lakcim"></label></p>
+                <p><label>Email <input type='email' name="email"></label></p>
+                <p><label>Telefon <input type="tel" name="telefon" size="10"></label></p>
             </fieldset>
             <fieldset>
-                <legend>Pizza mérete</legend>
-                <p><label><input type="radio" name="meret" value="kicsi">kicsi</label></p>
-                <p><label><input type="radio" name="meret" value="nagy">nagy</label></p>
+            <legend><h2>Felkapottak</h2></legend>
+            <div class="poszterek">
+            <div>
+                <img src="img/afonya.gif" alt="">
+                <p>Áfonya</p>
+            </div>
+            <div>
+                <img src="img/almabarack.gif" alt="">
+                <p>Almás barack</p>
+            </div>
+            <div>
+                <img src="img/banan.gif" alt="">
+                <p>Banán ice</p>
+            </div>
+            <div>
+                <img src="img/cola.gif" alt="">
+                <p>Cola</p>
+            </div>
+            <div>
+                <img src="img/cukorka.gif" alt="">
+                <p>Neon Rain</p>
+            </div>
+            <div>
+                <img src="img/dinnye.gif" alt="">
+                <p>Görögdinnye</p>
+            </div>    
+            <div>
+                <img src="img/eper.gif" alt="">
+                <p>Eper cream ice</p>
+            </div>   
+            <div>
+                <img src="img/kiwi.gif" alt="">
+                <p>Kiwi passion fruit guava</p>
+            </div> 
+            <div>
+                <img src="img/mango.gif" alt="">
+                <p>Mango</p>
+            </div>
+            <div>
+                <img src="img/sdinnye.gif" alt="">
+                <p>Kókusz dinnye</p>
+            </div>
+            </div>
+        
             </fieldset>
             <fieldset>
-                <legend>Feltétek</legend>
-                <p><label><input type="checkbox" name="feltet1" value="sonka">sonka</label></p>
-                <p><label><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
-                <p><label><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
+                <legend><h2>Kiválasztott termék</h2></legend>
+                <p><label><input type="checkbox" name="elf1" value="sajtos">Áfonya</label></p>
+                <p><label><input type="checkbox" name="elf2" value="negysajtos">Almás barack</label></p>
+                <p><label><input type="checkbox" name="elf3" value="sonkas">Banán ice</label></p>
+                <p><label><input type="checkbox" name="elf4" value="husimado">Cola</label></p>
+                <p><label><input type="checkbox" name="elf5" value="husimado">Neon Rain</label></p>
+                <p><label><input type="checkbox" name="elf6" value="husimado">Görögdinnye</label></p>
+                <p><label><input type="checkbox" name="elf7" value="husimado">Eper cream ice</label></p>
+                <p><label><input type="checkbox" name="elf8" value="husimado">Kiwi passion fruit guava</label></p>
+                <p><label><input type="checkbox" name="elf9" value="husimado">Kókusz dinnye</label></p>
+                
+
             </fieldset>
             <fieldset>
-                <legend>Végezetül</legend>
-                <p><label>mennyiség: <input type="number" name="mennyiseg"> db</label></p>
-                <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
+                <legend><h2>Végezetül</h2></legend>
+                <p><label>Mennyiség: <input type="number" name="mennyiseg"> db</label></p>
+                <p><label>Egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
                 <p><label>Kért szállítási idő: <input type="time" name="kiszallitas"></label></p>
                 <br>
                 <input type="reset" name="visszaallitas">
                 <input type="submit" name="kuldes">
             </fieldset>
-        </form>
-    </div>
+            </form>
+            </div>
     
 </body>
 </html>
