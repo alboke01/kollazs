@@ -30,3 +30,7 @@ p{
 img:hover + p {
     font-size: xx-large;
 }
+
+div{
+    display: block;
+}
